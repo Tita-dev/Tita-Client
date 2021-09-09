@@ -1,16 +1,8 @@
 import styled from 'styled-components';
 
-export const Contents1 = styled.section`
-    max-width:100vw;
-    height:38vh;
+export const Content = styled.div`
+    width:100%;
+    height:80%;
+    min-height:2500px;
 `;
 
-export const Contents2 = styled.section`
-    max-width:100vw;
-    height:24vh;
-`;
-
-export const Contents3 = styled.section`
-    max-width:100vw;
-    height:24vh;
-`;
