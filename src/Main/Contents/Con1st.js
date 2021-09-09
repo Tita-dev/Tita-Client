@@ -4,7 +4,7 @@ export const Cont1 = styled.div`
     display: flex;
     justify-content: center;
     width:100%;
-    
+    height: 60vh;
     
     
 `;
@@ -22,7 +22,6 @@ export const Con1ment1 = styled.p`
     font-weight: 500;
     padding: 5px 0px;
     font-size: 1.8rem;
-    margin-top: 15vh;
     .sub_title{
         font-size:2.2rem;
         padding: 5px 0px;

@@ -6,3 +6,5 @@ export const Content = styled.div`
     min-height:2500px;
 `;
 
+
+
