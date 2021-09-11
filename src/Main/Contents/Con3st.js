@@ -18,8 +18,8 @@ export const Ment3_1 = styled.div`
 `;
 
 export const Con3ment1 = styled.div`
-    font-size: 2.4rem;
-    font-weight: 500;
+    font-size: 2.3rem;
+    font-weight: 450;
     margin: 0 7vw;
     .sub_title1 {
         color: #DCC600;
@@ -54,6 +54,7 @@ export const Img4 = styled.div`
         height:180px;
         margin: 0 7vw;
         padding-left:1.8vw;
+        padding-top: 3vh;
     .Con3_2img {
         width:500px;
         height:180px;
@@ -61,8 +62,8 @@ export const Img4 = styled.div`
 `;
 
 export const Con3ment2 = styled.div`
-    font-size: 2.5rem;
-    font-weight: 500;
+    font-size: 2.3rem;
+    font-weight: 450;
     margin: 0 7vw;
     text-align: right;
     padding-right: 3vw;
