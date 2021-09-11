@@ -9,10 +9,10 @@ const Contents3 = () => {
             <S.Cont3>
                 <S.Ment3_1>
                     <S.Con3ment1>
-                    <p className="sub_title1">홈</p>
-                    오늘의 급식, 주요 공지 등
+                    <div className="sub_title1">홈</div>
+                    <div className="sub_sentence">오늘의 급식, 주요 공지 등
                     <br/>
-                    TimeTable의 모든 것을 한눈에
+                    TimeTable의 모든 것을 한눈에</div>
                     </S.Con3ment1>
                     <S.Img3>
                         <img className="Con3_1img" src={Con3_1img} alt=""/>
