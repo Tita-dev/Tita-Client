@@ -4,7 +4,7 @@ export const Cont1 = styled.div`
     display: flex;
     justify-content: center;
     width:100%;
-    height: 60vh;
+    height: 55vh;
     
     
 `;
