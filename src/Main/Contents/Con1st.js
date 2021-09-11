@@ -5,8 +5,6 @@ export const Cont1 = styled.div`
     justify-content: center;
     width:100%;
     height: 55vh;
-    
-    
 `;
 
 export const Ment1 = styled.div`
@@ -18,7 +16,6 @@ export const Ment1 = styled.div`
 `;
 
 export const Con1ment1 = styled.p`
-    
     font-weight: 500;
     padding: 5px 0px;
     font-size: 1.8rem;
