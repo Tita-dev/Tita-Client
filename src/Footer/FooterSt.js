@@ -7,7 +7,7 @@ export const Ft = styled.div`
     background-color: #f2f2f2;
 `;
 
-export const Ft_title = styled.div`
+export const FtTitle = styled.div`
     font-size: 1.8rem;
     font-weight: 500;
     color: #0076DC;
@@ -15,14 +15,14 @@ export const Ft_title = styled.div`
     margin-left: 15vw;
 `;
 
-export const Ft_subtitle = styled.div`
+export const FtSubtitle = styled.div`
     font-size: 1rem;
     font-weight: 300;
     padding-top: 1vh;
     margin-left: 15vw;
 `;
 
-export const Ft_bottom = styled.div`
+export const FtBottom = styled.div`
     display: flex;
     margin-top: 3vh;
 `;

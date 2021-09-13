@@ -17,13 +17,13 @@ const Contents1 = () => {
                         <p className="sub_title">타임테이블</p>
                     </S.Con1ment1>
                     <S.Img1>
-                        <a href="https://www.naver.com" target="_blank">
-                            <img className="Playbtn" src={Playbtn} alt=""/>
+                        <a href="https://www.naver.com" target="_blank" rel="noreferrer" >
+                            <img className="Playbtn" src={Playbtn} alt="" />
                         </a>
                     </S.Img1>
                 </S.Ment1>
                 <S.Img2>
-                    <img className="Con1img" src={Con1img} alt=""/>
+                    <img className="Con1img" src={Con1img} alt="" />
                 </S.Img2>
             </S.Cont1>
         </>

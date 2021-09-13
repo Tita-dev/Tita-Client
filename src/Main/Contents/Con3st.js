@@ -11,7 +11,7 @@ export const Cont3 = styled.div`
     margin: 5vh 0;
 `;
 
-export const Ment3_1 = styled.div`
+export const Ment3One = styled.div`
     display: flex;
     justify-content:center;
     margin: 3vh 0;
@@ -43,7 +43,7 @@ export const Img3 = styled.div`
 `;
 
 // 3_2 Section
-export const Ment3_2 = styled.div`
+export const Ment3Two = styled.div`
     display: flex;
     justify-content:center;
     margin: 3vh 0;
