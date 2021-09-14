@@ -1,6 +1,6 @@
 # ***Time Table***
 
-**Develofun Commit Message** 🏟 
+**Develop Commit Message** 🎷🎺
 ```
 [ADD] : 코드를 추가하였을 때
 [UPDATE] : 자잘한 코드를 수정하거나 코드 리뷰 후 수정할 때
