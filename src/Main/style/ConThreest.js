@@ -7,8 +7,9 @@ export const Cont3 = styled.div`
     flex-direction:column;
     
     width: 100%;
-    height: 55vh;
+    height: 50vh;
     margin: 5vh 0;
+    margin-top: 18vh;
 `;
 
 export const Ment3One = styled.div`
@@ -33,32 +34,19 @@ export const Con3ment1 = styled.div`
 `;
 
 export const Img3 = styled.div`
-    width:500px;
-    height:290px;
     margin: 0 5vw 0 9vw;
-    .Con3_1img {
-        width:500px;
-        height:290px;
-    }
 `;
 
 // 3_2 Section
 export const Ment3Two = styled.div`
     display: flex;
     justify-content:center;
-    margin: 3vh 0;
 `;
 
 export const Img4 = styled.div`
-        width:500px;
-        height:180px;
         margin: 0 7vw;
         padding-left:1.8vw;
         padding-top: 3vh;
-    .Con3_2img {
-        width:500px;
-        height:180px;
-    }
 `;
 
 export const Con3ment2 = styled.div`

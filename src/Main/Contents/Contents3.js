@@ -1,7 +1,6 @@
 import React from 'react';
-import * as S from './Con3st';
-import Con3_1img from '../../Assets/Con3_1img.png';
-import Con3_2img from '../../Assets/Con3_2img.png';
+import * as S from '../style/ConThreest';
+import * as I from '../../Assets/index';
 
 const Contents3 = () => {
     return (
@@ -15,12 +14,12 @@ const Contents3 = () => {
                     TimeTable의 모든 것을 한눈에</div>
                     </S.Con3ment1>
                     <S.Img3>
-                        <img className="Con3_1img" src={Con3_1img} alt="" />
+                        <I.ConThreeImgOne />
                     </S.Img3>
                 </S.Ment3One>
                 <S.Ment3Two>
                     <S.Img4>
-                        <img className="Con3_2img" src={Con3_2img} alt="" />
+                        <I.ConThreeImgTwo />
                     </S.Img4>
                     <S.Con3ment2>
                         <p className="sub_title2">게시판</p>
