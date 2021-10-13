@@ -2,7 +2,7 @@ import * as React from "react";
 
 function ConThreeImgOne(props) {
   return (
-    <svg width="50vh" height="25vh" viewBox="0 0 443 259" fill="none" {...props}>
+    <svg width="50vh" height="50vh" viewBox="0 0 443 259" fill="none" {...props}>
       <g filter="url(#prefix__filter3_d)">
         <path
           fill="url(#prefix__pattern3)"

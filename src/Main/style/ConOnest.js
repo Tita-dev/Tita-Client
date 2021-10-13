@@ -12,21 +12,23 @@ export const ContOne = styled.div`
 `;
 
 export const MentOne = styled.div`
+    position: static;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10vw;
     margin-right: 7.5vw;
     @media screen and (max-width:767px) {
-        
+        word-break:keep-all;
+        width:20vh;
     }
 `;
 
-export const ConOnement = styled.p`
+export const ConOnement = styled.div`
     font-weight: 500;
     padding: 5px 0px;
     font-size: 1.8rem;
-    .sub_title{
+    .sub_title2{
         font-size:2.2rem;
         padding: 5px 0px;
         font-weight: 700;
@@ -35,6 +37,9 @@ export const ConOnement = styled.p`
         width:100%;
         display: block;
         font-size:1.2rem;
+        position:relative;
+        text-align:center;
+        margin:0 10vh;
     }
 `;
 
@@ -57,8 +62,14 @@ export const ImgTwo = styled.div`
         
         @media (max-width:767px) {
             display:block;
-            width:30%;
-            margin:0 auto;
+            width:20vh;
+            height:30vh;
+            position:relative;
+            margin:0;
+            svg{
+                width:250px;
+                height:350px;
+            }
     }
 `;
 
