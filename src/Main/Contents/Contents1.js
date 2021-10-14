@@ -11,7 +11,7 @@ const Contents1 = () => {
             <S.ContOne>
                 <S.MentOne>
                     <S.ConOnement>
-                        우리들만의 공간에서 우리들만의 이야기를,
+                    <div>우리들만의 공간에서 </div><div>우리들만의 이야기를,</div>
                         <br/>
                         <p className="sub_title2">타임테이블</p>
                     </S.ConOnement>
