@@ -7,11 +7,10 @@ export const ContOne = styled.div`
     justify-content: center;
     width:100%;
     height: 55vh;
-    @media (max-width:1199px) {
-    
-
+    @media (max-width:1366px) {
+        height:auto;
     }
-    @media (max-width:899px) {
+    @media (max-width:1024px) {
         justify-content:space-around;
         height:auto;
     }
@@ -28,14 +27,17 @@ export const MentOne = styled.div`
     justify-content: center;
     margin-left: 10vw;
     margin-right: 7.5vw;
-    @media (max-width:899px){
+
+    @media (max-width:1366px){
+        width:35vh;
+    }
+
+    @media (max-width:1024px){
         width:25vh;
-        word-break:keep-all;
-        padding-left:2vh;
+        
     }
 
     @media (max-width:767px) {
-        word-break:keep-all;
         width:20vh;
     }
 `;
@@ -53,25 +55,21 @@ export const ConOnement = styled.div`
         padding: 5px 0px;
         font-weight: 700;
     }
-    @media (max-width:1199px) {
-        display: block;
-        font-size:1.8rem;
-        text-align:left;
-        div {
-            display: inline-block;
-            white-space:nowrap;
-        }
-    }
-    @media (max-width:899px) {
+    @media (max-width:1366px) {
         display: block;
         font-size:1.6rem;
         text-align:left;
         div {
-            
-            display:inline-block;
             white-space:nowrap;
         }
-        
+    }
+    @media (max-width:1024px) {
+        display: block;
+        font-size:1.5rem;
+        text-align:left;
+        div {
+            display:inline-block;
+        }
     }
 
     @media (max-width:767px) {
@@ -79,18 +77,20 @@ export const ConOnement = styled.div`
         display: block;
         font-size:1.2rem;
         text-align:center;
-        div {
-            display:inline-block;
-            white-space:nowrap;
-        }
     }
 `;
 
 export const ImgOne = styled.div`
     margin-bottom: 1vh;
 
-    @media (max-width:899px) {
-        
+    @media (max-width:1366px) { 
+        svg{
+            width:18vh;
+            height:8vh;
+        }
+    }
+
+    @media (max-width:1024px) {
         svg{
             width:17vh;
             height:8vh;
@@ -100,7 +100,7 @@ export const ImgOne = styled.div`
     @media (max-width:767px) {
         display:block;
         align-items:center;
-        padding-left:3.4vh;
+        padding-left:3.5vh;
         svg{
             width:13vh;
             height:10vh;
@@ -121,7 +121,17 @@ export const ImgTwo = styled.div`
         display:block;
         margin-left: 3vh;
         
-        @media (max-width:899px) {
+        @media (max-width:1366px) {
+                width:30vh;
+                height:35vh;
+                margin:0;
+            svg{
+                width:30vh;
+                height:30vh;
+            }
+        }
+
+        @media (max-width:1024px) {
                 width:30vh;
                 height:33vh;
                 margin:0;
