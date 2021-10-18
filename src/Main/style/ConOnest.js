@@ -8,11 +8,11 @@ export const ContOne = styled.div`
     width:100%;
     height: 55vh;
     @media (max-width:1199px) {
-    /* 타블렛 가로 */
+    
 
     }
     @media (max-width:899px) {
-    /* 타블렛 세로 */
+        justify-content:space-around;
         height:auto;
     }
     @media (max-width:767px) {
@@ -29,7 +29,9 @@ export const MentOne = styled.div`
     margin-left: 10vw;
     margin-right: 7.5vw;
     @media (max-width:899px){
-
+        width:25vh;
+        word-break:keep-all;
+        padding-left:2vh;
     }
 
     @media (max-width:767px) {
@@ -62,13 +64,14 @@ export const ConOnement = styled.div`
     }
     @media (max-width:899px) {
         display: block;
-        font-size:1.8rem;
+        font-size:1.6rem;
         text-align:left;
         div {
             
             display:inline-block;
             white-space:nowrap;
         }
+        
     }
 
     @media (max-width:767px) {
@@ -85,6 +88,15 @@ export const ConOnement = styled.div`
 
 export const ImgOne = styled.div`
     margin-bottom: 1vh;
+
+    @media (max-width:899px) {
+        
+        svg{
+            width:17vh;
+            height:8vh;
+        }
+    }
+
     @media (max-width:767px) {
         display:block;
         align-items:center;
@@ -106,10 +118,21 @@ export const PlayBtn = styled.div`
 `;
 
 export const ImgTwo = styled.div`
+        display:block;
         margin-left: 3vh;
         
+        @media (max-width:899px) {
+                width:30vh;
+                height:33vh;
+                margin:0;
+            svg{
+                width:30vh;
+                height:30vh;
+                
+            }
+        }
+
         @media (max-width:767px) {
-            display:block;
             width:100vh;
             height:25vh;
             margin:0;
