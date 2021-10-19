@@ -1,7 +1,7 @@
 import * as React from "react";
 function ConOneImg(props) {
   return (
-    <svg width="60vh" height="60vh" viewBox="0 0 690 573" fill="none" {...props}>
+    <svg width={600} height={573} viewBox="0 0 600 573" fill="none" {...props}>
       <g filter="url(#prefix__filter0_d)">
         <path
           d="M559 283c7.45 181-19 242.5-246.5 252C194 539.948 67 418.862 67 283S177.138 37 313 37s238.673 68 246 246z"
