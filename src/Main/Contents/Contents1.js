@@ -16,7 +16,7 @@ const Contents1 = () => {
                         <p className="sub_title2">타임테이블</p>
                     </S.ConOnement>
                     <S.ImgOne>
-                        <a href="#" target="_blank" rel="noreferrer" >
+                        <a href="#!" target="_blank" rel="noreferrer" >
                             <I.PlayBtn />
                         </a>
                     </S.ImgOne>

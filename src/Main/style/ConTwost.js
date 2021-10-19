@@ -15,6 +15,16 @@ export const Ment2 = styled.div`
 `;
 
 export const Con2Ment1 = styled.p`
+    @media (max-width: 1024px) {
+        display: grid;
+    }
+
+    @media (max-width: 767px) {
+        display: grid;
+    }
+    div {
+        display: inline;
+    }
     color: #0076dc;
     font-weight:700;
     font-size: 3rem;
@@ -24,6 +34,15 @@ export const Con2Ment1 = styled.p`
 `;
 
 export const Con2Ment2 = styled.p`
+    @media (max-width: 1024px) {
+        display: grid;
+        .underText {
+            margin-top: -3.7vh;
+        }
+    }
+    div {
+        display: inline;
+    }
     font-size: 2rem;
     text-align:center;
     margin:2vh 0 4vh 0;
