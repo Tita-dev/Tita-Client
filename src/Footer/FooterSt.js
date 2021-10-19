@@ -54,5 +54,12 @@ export const Two = styled.div`
 `;
 
 export const Img5 = styled.div`
-
+    width:35px;
+    height:35px;
+    
+    .Github {
+        width:35px;
+        height:35px;
+        
+    }
 `;
