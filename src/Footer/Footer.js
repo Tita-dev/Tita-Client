@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './FooterSt';
-import * as I from '../Assets/index';
+import Github from '../Assets/github.png';
 
 const Footer = () => {
     return (
@@ -26,10 +26,12 @@ const Footer = () => {
                         <a href="/">
                             <p className="Two_"> 문의하기</p>
                         </a>
-                        <a href="https://github.com/Tita-dev">
-                            <I.Github />
-                        </a>
                     </S.Two>
+                    <S.Img5>
+                        <a href="/">
+                            <img className="Github" src={Github} alt="" />
+                        </a>
+                    </S.Img5>
                 </S.FtBottom>
             </S.Ft>
 
