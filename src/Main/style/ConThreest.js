@@ -34,16 +34,23 @@ export const Con3ment1 = styled.div`
 `;
 
 export const Img3 = styled.div`
+    @media (max-width: 1366px) {
+        margin-left: 7vh;
+    }
     margin: 0 5vw 0 9vw;
 `;
 
 // 3_2 Section
 export const Ment3Two = styled.div`
+    margin-right: 2vh;
     display: flex;
     justify-content:center;
 `;
 
 export const Img4 = styled.div`
+    @media (max-width: 1366px) {
+        margin-right: 9vh;
+    }
         margin: 0 7vw;
         padding-left:1.8vw;
         padding-top: 3vh;

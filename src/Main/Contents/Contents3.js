@@ -9,9 +9,7 @@ const Contents3 = () => {
                 <S.Ment3One>
                     <S.Con3ment1>
                         <div className="sub_title1">홈</div>
-                        <div className="sub_sentence">오늘의 급식, 주요 공지 등
-                    <br />
-                    TimeTable의 모든 것을 한눈에</div>
+                        <div className="sub_sentence">오늘의 급식, 주요 공지 등<br />TimeTable의 모든 것을 한눈에</div>
                     </S.Con3ment1>
                     <S.Img3>
                         <I.ConThreeImgOne />
@@ -34,5 +32,3 @@ const Contents3 = () => {
 };
 
 export default Contents3;
-
-// test
