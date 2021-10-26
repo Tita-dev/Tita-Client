@@ -21,9 +21,9 @@ const Contents3 = () => {
                     </S.Img4>
                     <S.Con3ment2>
                         <p className="sub_title2">게시판</p>
-                        교내 학생들과 주고받는 소식
+                        <div>교내 학생들과 주고받는 소식</div>
                         <br />
-                        궁금한 건 뭐든 물어보세요, 이곳에서
+                        <div>궁금한 건 뭐든 물어보세요, 이곳에서</div>
                     </S.Con3ment2>
                 </S.Ment3Two>
             </S.Cont3>

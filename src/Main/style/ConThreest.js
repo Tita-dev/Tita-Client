@@ -62,10 +62,6 @@ export const Img4 = styled.div`
     @media (max-width: 1366px) {
         margin-right: 9vh;
     }
-
-    @media (max-width: 1024px) {
-        
-    }
         margin: 0 7vw;
         padding-left:1.8vw;
         padding-top: 3vh;
