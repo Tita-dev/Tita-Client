@@ -13,12 +13,19 @@ export const Cont3 = styled.div`
 `;
 
 export const Ment3One = styled.div`
+    @media (max-width: 1366px) {
+        margin-left: 5vh;
+    }
+
     display: flex;
     justify-content:center;
     margin: 3vh 0;
 `;
 
 export const Con3ment1 = styled.div`
+    @media (max-width: 1024px) {
+        font-size: 2rem;
+    }
     font-size: 2.3rem;
     font-weight: 450;
     margin: 0 7vw;
@@ -36,6 +43,10 @@ export const Con3ment1 = styled.div`
 export const Img3 = styled.div`
     @media (max-width: 1366px) {
         margin-left: 7vh;
+    }
+
+    @media (max-width: 1024px) {
+        
     }
     margin: 0 5vw 0 9vw;
 `;
@@ -57,6 +68,9 @@ export const Img4 = styled.div`
 `;
 
 export const Con3ment2 = styled.div`
+    @media (max-width: 1024px) {
+        font-size: 2rem;
+    }
     font-size: 2.3rem;
     font-weight: 450;
     margin: 0 7vw;
