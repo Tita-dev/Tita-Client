@@ -14,7 +14,7 @@ export const Ft = styled.div`
         
     }
     @media (max-width:767px){
-        
+        display:inline-block;
     }
 `;
 
@@ -32,9 +32,9 @@ export const FtTitle = styled.div`
     }
 
     @media (max-width:767px){
-        margin-left: 3vh;
-        font-size: 1.5rem;
-        /* display: inline-block; */
+        margin-left: 7vw;
+        font-size: 1.7rem;
+        padding: 2vh 0 1vh 0;
     }
 `;
 
@@ -50,7 +50,9 @@ export const FtSubtitle = styled.div`
         margin-left:8vw;
     }
     @media (max-width:767px){
-        margin-left: 3vh;
+        padding-bottom: 1vh;
+        margin-left: 7vw;
+        font-size:1.2rem;
     }
 `;
 
@@ -67,8 +69,19 @@ export const FtBottom = styled.div`
     
     @media (max-width:767px){
         margin:0;
-        display:block;
+        display: inline-block;
     }
+`;
+
+export const Reverse = styled.div`
+        display:flex;
+        flex-direction:row;
+        height:5vh;
+    @media (max-width:767px){
+        margin-left:7vw;
+        flex-direction:row-reverse;
+        }
+        
 `;
 
 export const One = styled.div`
@@ -86,8 +99,10 @@ export const One = styled.div`
         white-space:nowrap;
     }
     @media (max-width:767px){
-        margin-left: 3vh;
+        margin-left: 7vw;
         white-space:nowrap;
+        margin-bottom:2vh;
+        
     }
 `;
 
@@ -115,14 +130,25 @@ export const Two = styled.div`
     }
     
     @media (max-width:767px){
-        
+        font-size:1rem;
+        font-weight:350;
+        align-items:stretch;
         flex-direction:column;
-        
+        display: inline-block;
+        margin-left:57vw;
+        position: relative;
+        bottom:10vh;
+        p{
+            padding-bottom:1vh;
+        }
     }
 `;
 
 export const Img5 = styled.div`
-    
+    display: inline-block;
+    width:3vh;
+    height:3vh;
+    position: relative;
     svg{
         width:3vh;
         height:3vh;
