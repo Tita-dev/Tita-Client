@@ -12,18 +12,16 @@ const Contents3 = () => {
                         <div className="sub_sentence">오늘의 급식, 주요 공지 등<br />TimeTable의 모든 것을 한눈에</div>
                     </S.Con3ment1>
                     <S.Img3>
-                        <I.ConThreeImgOne />
+                        <I.Breakfast />
                     </S.Img3>
                 </S.Ment3One>
                 <S.Ment3Two>
                     <S.Img4>
-                        <I.ConThreeImgTwo />
+                        <I.Freenotice />
                     </S.Img4>
                     <S.Con3ment2>
                         <p className="sub_title2">게시판</p>
-                        <div>교내 학생들과 주고받는 소식</div>
-                        <br />
-                        <div>궁금한 건 뭐든 물어보세요, 이곳에서</div>
+                        <div>교내 학생들과 주고받는 소식<br />궁금한 건 뭐든 물어보세요, 이곳에서</div>
                     </S.Con3ment2>
                 </S.Ment3Two>
             </S.Cont3>
