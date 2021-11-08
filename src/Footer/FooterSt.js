@@ -7,12 +7,7 @@ export const Ft = styled.div`
     background-color: #f2f2f2;
     display: inline-flex;
     flex-direction:column;
-    @media (max-width:1366px){
-        
-    }
-    @media (max-width:1024px){
-        
-    }
+    
     @media (max-width:767px){
         display:inline-block;
     }
