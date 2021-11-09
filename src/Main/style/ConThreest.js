@@ -7,7 +7,7 @@ export const Cont3 = styled.div`
     flex-direction:column;
     
     width: 100%;
-    height: 50vh;
+    height: 8vh;
     margin: 5vh 0;
     margin-top: 18vh;
 `;
@@ -62,9 +62,8 @@ export const Img4 = styled.div`
     @media (max-width: 1366px) {
         margin-right: 9vh;
     }
-        margin: 0 7vw;
+        margin: 0 7vw 3vh;
         padding-left:1.8vw;
-        padding-top: 3vh;
 `;
 
 export const Con3ment2 = styled.div`
