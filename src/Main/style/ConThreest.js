@@ -69,7 +69,6 @@ export const Img4 = styled.div`
         margin: 0 7vw 3vh;
         padding-left:1.8vw;
         margin-top: -5vh;
-        margin-left: 10vh; 
 `;
 
 export const Con3ment2 = styled.div`
