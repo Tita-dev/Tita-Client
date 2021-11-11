@@ -22,7 +22,7 @@ const Contents1 = () => {
                     </S.ImgOne>
                 </S.MentOne>
                 <S.ImgTwo>
-                    <I.ConOneImg/>
+                    <I.Phone/>
                 </S.ImgTwo>
             </S.ContOne>
         </>
