@@ -2,7 +2,7 @@ import * as React from "react";
 
 function Freenotice(props) {
   return (
-    <svg width="34vh" height="34vh" viewBox="0 0 537 160" fill="none" {...props}>
+    <svg width="36vh" height="36vh" viewBox="0 0 537 160" fill="none" {...props}>
       <g filter="url(#prefix__filter0_d_1411:9066)">
         <path d="M529 57H85v95h444V57z" fill="#fff" />
         <path

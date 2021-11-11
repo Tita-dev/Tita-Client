@@ -2,7 +2,7 @@ import * as React from "react";
 
 function Breakfast(props) {
   return (
-    <svg width="35vh" height="35vh" viewBox="0 0 512 287" fill="none" {...props}>
+    <svg width="36vh" height="36vh" viewBox="0 0 512 287" fill="none" {...props}>
       <g filter="url(#prefix__filter0_d_1411:9067)">
         <path
           d="M471.914 4.456H62.147c-16.399 0-29.693 13.299-29.693 29.704v176.739c0 16.405 13.294 29.704 29.693 29.704h409.767c16.399 0 29.693-13.299 29.693-29.704V34.159c0-16.404-13.294-29.703-29.693-29.703z"
