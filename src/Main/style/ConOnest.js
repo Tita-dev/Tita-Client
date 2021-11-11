@@ -151,7 +151,7 @@ export const ImgTwo = styled.div`
             width:100vh;
             height:27vh;
             margin:0;
-            margin-left:14vh;
+            margin-left:8vh;
             svg{
                 width:100vh;
                 height:27vh;
