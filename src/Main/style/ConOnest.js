@@ -120,7 +120,12 @@ export const PlayBtn = styled.div`
 export const ImgTwo = styled.div`
         display:block;
         margin-left: 3vh;
-        
+        width:50vh;
+        height:50vh;
+        svg{
+            width:50vh;
+            height:50vh;
+        }
         @media (max-width:1366px) {
                 width:30vh;
                 height:35vh;
@@ -144,11 +149,12 @@ export const ImgTwo = styled.div`
 
         @media (max-width:767px) {
             width:100vh;
-            height:25vh;
+            height:27vh;
             margin:0;
+            margin-left:8vh;
             svg{
                 width:100vh;
-                height:25vh;
+                height:27vh;
                 padding-right:2vh;
             }
     }
