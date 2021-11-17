@@ -1,4 +1,13 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const TextKeyframe = keyframes`
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+`;
 
 export const Cont2 = styled.div`
     display:flex;
@@ -31,6 +40,8 @@ export const Con2Ment1 = styled.p`
     white-space:nowrap;
     text-align:center;
     margin:4vh 0 4vh 0;
+    animation: ${TextKeyframe};
+    animation-duration: 3.5s;
 `;
 
 export const Con2Ment2 = styled.p`
@@ -50,4 +61,6 @@ export const Con2Ment2 = styled.p`
         font-weight: 600;
         display:inline;
     }
+    animation: ${TextKeyframe};
+    animation-duration: 3.5s;
 `;
