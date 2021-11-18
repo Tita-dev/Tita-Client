@@ -7,3 +7,4 @@ export const Content = styled.div`
     overflow-x: hidden;
     overflow-y: auto;
 `;
+
