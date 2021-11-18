@@ -6,9 +6,9 @@ import Main from './Main/Main';
 const MainPage = () => {
     return (
         <>
-            <Header/>
-            <Main/>
-            <Footer/>
+            <Header />
+            <Main />
+            <Footer />
         </>
     );
 };
