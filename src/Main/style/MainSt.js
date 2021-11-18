@@ -8,5 +8,3 @@ export const Content = styled.div`
     overflow-y: auto;
 `;
 
-
-

@@ -11,8 +11,8 @@ const Contents1 = () => {
             <S.ContOne>
                 <S.MentOne>
                     <S.ConOnement>
-                    <div>우리들만의 공간에서 </div><div>우리들만의 이야기를,</div>
-                        <br/>
+                        <div>우리들만의 공간에서 </div><div>우리들만의 이야기를,</div>
+                        <br />
                         <p className="sub_title2">타임테이블</p>
                     </S.ConOnement>
                     <S.ImgOne>
@@ -22,7 +22,7 @@ const Contents1 = () => {
                     </S.ImgOne>
                 </S.MentOne>
                 <S.ImgTwo>
-                    <I.Group/>
+                    <I.Group />
                 </S.ImgTwo>
             </S.ContOne>
         </>

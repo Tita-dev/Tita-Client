@@ -159,7 +159,3 @@ export const ImgTwo = styled.div`
             }
     }
 `;
-
-
-
-
