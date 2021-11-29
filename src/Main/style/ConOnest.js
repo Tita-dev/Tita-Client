@@ -1,4 +1,10 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const Doung = keyframes`
+    0% {margin-top: 0vh;}
+    100% {margin-top: 1vh;}
+    
+`
 
 export const ContOne = styled.div`
     display: flex;
@@ -27,7 +33,7 @@ export const MentOne = styled.div`
     justify-content: center;
     margin-left: 10vw;
     margin-right: 7.5vw;
-
+    animation: ${Doung};
     @media (max-width:1366px){
         width:35vh;
     }
@@ -82,7 +88,6 @@ export const ConOnement = styled.div`
 
 export const ImgOne = styled.div`
     margin-bottom: 1vh;
-
     @media (max-width:1366px) { 
         svg{
             width:18vh;
@@ -125,6 +130,10 @@ export const ImgTwo = styled.div`
         svg{
             width:50vh;
             height:50vh;
+            animation: ${Doung};
+            animation-duration:2s;
+            animation-iteration-count:infinite;
+            animation-direction:alternate;
         }
         @media (max-width:1366px) {
                 width:30vh;

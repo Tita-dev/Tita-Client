@@ -1,4 +1,3 @@
-export { default as ConOneImg } from "./ConOneImg";
 export { default as PlayBtn } from "./Playbtn";
 export { default as Breakfast } from "./Breakfast";
 export { default as Freenotice } from "./Freenotice";
