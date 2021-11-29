@@ -130,10 +130,7 @@ export const ImgTwo = styled.div`
         svg{
             width:50vh;
             height:50vh;
-            animation: ${Doung};
-            animation-duration:2s;
-            animation-iteration-count:infinite;
-            animation-direction:alternate;
+            animation: ${Doung} 2s infinite alternate;
         }
         @media (max-width:1366px) {
                 width:30vh;
