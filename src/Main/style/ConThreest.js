@@ -1,4 +1,8 @@
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
+
+
+
+
 
 // 3_1 Section
 export const Cont3 = styled.div`
@@ -21,7 +25,7 @@ export const Ment3One = styled.div`
     @media (max-width: 767px) {
         margin-top: -20vh;
     }
-
+    
     display: flex;
     justify-content:center;
     margin: 3vh 0;
