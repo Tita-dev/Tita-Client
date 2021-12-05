@@ -1,4 +1,10 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const Doung = keyframes`
+    0% {margin-top: 0vh;}
+    100% {margin-top: 1vh;}
+    
+`
 
 export const ContOne = styled.div`
     display: flex;
@@ -27,7 +33,7 @@ export const MentOne = styled.div`
     justify-content: center;
     margin-left: 10vw;
     margin-right: 7.5vw;
-
+    animation: ${Doung};
     @media (max-width:1366px){
         width:35vh;
     }
@@ -82,7 +88,6 @@ export const ConOnement = styled.div`
 
 export const ImgOne = styled.div`
     margin-bottom: 1vh;
-
     @media (max-width:1366px) { 
         svg{
             width:18vh;
@@ -122,15 +127,16 @@ export const ImgTwo = styled.div`
         margin-left: 3vh;
         width:50vh;
         height:50vh;
-        svg{
+        .ConOneImg{
             width:50vh;
             height:50vh;
+            animation: ${Doung} 2s infinite alternate;
         }
         @media (max-width:1366px) {
                 width:30vh;
                 height:35vh;
                 margin:0;
-            svg{
+            .ConOneImg{
                 width:30vh;
                 height:30vh;
             }
@@ -138,23 +144,23 @@ export const ImgTwo = styled.div`
 
         @media (max-width:1024px) {
                 width:30vh;
-                height:33vh;
+                height:35vh;
                 margin:0;
-            svg{
+            .ConOneImg{
                 width:30vh;
                 height:30vh;
-                
             }
         }
 
         @media (max-width:767px) {
-            width:100vh;
-            height:27vh;
-            margin:0;
-            margin-left:8vh;
-            svg{
-                width:100vh;
-                height:27vh;
+            width:25vh;
+            height:23vh;
+            margin-bottom:3vh;
+            margin-left:5vh;
+            
+            .ConOneImg{
+                width:25vh;
+                height:23vh;
                 padding-right:2vh;
             }
     }

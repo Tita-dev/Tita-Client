@@ -1,12 +1,23 @@
-import React from 'react';
 import * as S from '../style/ConThreest';
 import * as I from '../../Assets/index';
+import React, { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Contents3 = () => {
+
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1500
+        });
+    });
+
     return (
         <>
             <S.Cont3>
-                <S.Ment3One>
+                <S.Ment3One data-aos="fade-up-left">
                     <S.Con3ment1>
                         <div className="sub_title1">홈</div>
                         <div className="sub_sentence">오늘의 급식, 주요 공지 등<br />TimeTable의 모든 것을 한눈에</div>
@@ -15,7 +26,7 @@ const Contents3 = () => {
                         <I.Breakfast />
                     </S.Img3>
                 </S.Ment3One>
-                <S.Ment3Two>
+                <S.Ment3Two data-aos="fade-up-right">
                     <S.Img4>
                         <I.Freenotice />
                     </S.Img4>

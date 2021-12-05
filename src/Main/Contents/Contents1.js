@@ -4,7 +4,6 @@ import * as I from '../../Assets/index';
 
 
 
-
 const Contents1 = () => {
     return (
         <>
@@ -22,7 +21,8 @@ const Contents1 = () => {
                     </S.ImgOne>
                 </S.MentOne>
                 <S.ImgTwo>
-                    <I.Group />
+                    {/* <I.Group /> */}
+                    <img className="ConOneImg" src={require('../../Assets/ConOneImg.png').default} />
                 </S.ImgTwo>
             </S.ContOne>
         </>
