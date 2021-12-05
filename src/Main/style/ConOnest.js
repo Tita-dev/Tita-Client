@@ -127,7 +127,7 @@ export const ImgTwo = styled.div`
         margin-left: 3vh;
         width:50vh;
         height:50vh;
-        svg{
+        .ConOneImg{
             width:50vh;
             height:50vh;
             animation: ${Doung} 2s infinite alternate;
@@ -136,7 +136,7 @@ export const ImgTwo = styled.div`
                 width:30vh;
                 height:35vh;
                 margin:0;
-            svg{
+            .ConOneImg{
                 width:30vh;
                 height:30vh;
             }
@@ -144,23 +144,23 @@ export const ImgTwo = styled.div`
 
         @media (max-width:1024px) {
                 width:30vh;
-                height:33vh;
+                height:35vh;
                 margin:0;
-            svg{
+            .ConOneImg{
                 width:30vh;
                 height:30vh;
-                
             }
         }
 
         @media (max-width:767px) {
-            width:100vh;
-            height:27vh;
-            margin:0;
-            margin-left:8vh;
-            svg{
-                width:100vh;
-                height:27vh;
+            width:25vh;
+            height:23vh;
+            margin-bottom:3vh;
+            margin-left:5vh;
+            
+            .ConOneImg{
+                width:25vh;
+                height:23vh;
                 padding-right:2vh;
             }
     }
