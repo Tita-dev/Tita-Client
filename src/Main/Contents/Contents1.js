@@ -23,7 +23,7 @@ const Contents1 = () => {
                 </S.MentOne>
                 <S.ImgTwo>
                     {/* <I.Group /> */}
-                    <img className="ConOneImg" src={require('../../Assets/ConOneImg.png').default} />
+                    <img className="ConOneImg" src={require('../../Assets/ConOneImg.png').default} alt=""/>
                 </S.ImgTwo>
             </S.ContOne>
         </>
