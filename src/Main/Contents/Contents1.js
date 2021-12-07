@@ -5,6 +5,9 @@ import * as I from '../../Assets/index';
 
 
 const Contents1 = () => {
+    function onWait() {
+        alert('출시 대기중입니다!');
+    }
     return (
         <>
             <S.ContOne>
@@ -15,9 +18,7 @@ const Contents1 = () => {
                         <p className="sub_title2">타임테이블</p>
                     </S.ConOnement>
                     <S.ImgOne>
-                        <a href="#!" target="_blank" rel="noreferrer" >
-                            <I.PlayBtn />
-                        </a>
+                            <I.PlayBtn onClick={onWait}/>
                     </S.ImgOne>
                 </S.MentOne>
                 <S.ImgTwo>

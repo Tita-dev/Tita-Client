@@ -88,6 +88,7 @@ export const ConOnement = styled.div`
 
 export const ImgOne = styled.div`
     margin-bottom: 1vh;
+    cursor: pointer;
     @media (max-width:1366px) { 
         svg{
             width:18vh;
