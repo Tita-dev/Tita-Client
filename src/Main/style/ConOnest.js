@@ -60,6 +60,7 @@ export const ConOnement = styled.div`
         font-size:2.2rem;
         padding: 5px 0px;
         font-weight: 700;
+        white-space:nowrap;
     }
     @media (max-width:1366px) {
         display: block;
@@ -81,8 +82,13 @@ export const ConOnement = styled.div`
     @media (max-width:767px) {
         
         display: block;
-        font-size:1.2rem;
+        font-size:1.1rem;
         text-align:center;
+        
+        .sub_title2{
+            font-size:1.8rem;
+            margin-left:1vh;
+        }
     }
 `;
 
@@ -108,8 +114,8 @@ export const ImgOne = styled.div`
         align-items:center;
         padding-left:3.5vh;
         svg{
-            width:13vh;
-            height:10vh;
+            width:16vh;
+            height:12vh;
             stroke-width:3px;
         }
     }
@@ -128,6 +134,7 @@ export const ImgTwo = styled.div`
         margin-left: 3vh;
         width:50vh;
         height:50vh;
+        filter:drop-shadow(10px 10px 10px #D3D3D3);
         .ConOneImg{
             width:50vh;
             height:50vh;
