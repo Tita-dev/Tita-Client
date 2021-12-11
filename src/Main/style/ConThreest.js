@@ -27,9 +27,16 @@ export const MentOne = styled.div`
         font-size: 3rem;
         font-weight: 700;
         margin-top: 3vh;
+        
+        @media (max-width: 1024px) { // Ipad 세로
+            font-size: 2.5rem;
+        }
     }
     .sub_sentence {
         margin: 4vh 0;
+        @media (max-width: 1024px) { // Ipad 세로
+            font-size: 2rem;
+        }
     }
 
     .Img3 {
@@ -50,13 +57,19 @@ export const MentTwo = styled.div`
     font-weight: 450;
     margin: 0 7vw;
     text-align: right;
-    padding-right: 3vw;
+
     .sub_title2 {
         color: #0076DC;
         font-size: 3rem;
         font-weight: 700;
         margin: 2vh 0; 
+        @media (max-width: 1024px) { // Ipad 세로
+            font-size: 2.5rem;
+        }
     }
     .sub_sentence2 {
+        @media (max-width: 1024px) {
+            font-size: 2rem;
+        }
     }
 `;
