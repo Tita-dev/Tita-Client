@@ -1,8 +1,19 @@
-import React from 'react';
 import * as S from '../style/ConThreest';
 import * as I from '../../Assets/index';
+import React, { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Contents3 = () => {
+
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1500
+        });
+    });
+
     return (
         <>
             <S.Wrapper>

@@ -1,4 +1,10 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const Doung = keyframes`
+    0% {margin-top: 0vh;}
+    100% {margin-top: 1vh;}
+    
+`
 
 export const ContOne = styled.div`
     display: flex;
@@ -27,7 +33,7 @@ export const MentOne = styled.div`
     justify-content: center;
     margin-left: 10vw;
     margin-right: 7.5vw;
-
+    animation: ${Doung};
     @media (max-width:1366px){
         width:35vh;
     }
@@ -54,6 +60,7 @@ export const ConOnement = styled.div`
         font-size:2.2rem;
         padding: 5px 0px;
         font-weight: 700;
+        white-space:nowrap;
     }
     @media (max-width:1366px) {
         display: block;
@@ -75,14 +82,19 @@ export const ConOnement = styled.div`
     @media (max-width:767px) {
         
         display: block;
-        font-size:1.2rem;
+        font-size:1.1rem;
         text-align:center;
+        
+        .sub_title2{
+            font-size:1.8rem;
+            margin-left:1vh;
+        }
     }
 `;
 
 export const ImgOne = styled.div`
     margin-bottom: 1vh;
-
+    cursor: pointer;
     @media (max-width:1366px) { 
         svg{
             width:18vh;
@@ -102,8 +114,8 @@ export const ImgOne = styled.div`
         align-items:center;
         padding-left:3.5vh;
         svg{
-            width:13vh;
-            height:10vh;
+            width:16vh;
+            height:12vh;
             stroke-width:3px;
         }
     }
@@ -122,15 +134,17 @@ export const ImgTwo = styled.div`
         margin-left: 3vh;
         width:50vh;
         height:50vh;
-        svg{
+        filter:drop-shadow(10px 10px 10px #D3D3D3);
+        .ConOneImg{
             width:50vh;
             height:50vh;
+            animation: ${Doung} 2s infinite alternate;
         }
         @media (max-width:1366px) {
                 width:30vh;
                 height:35vh;
                 margin:0;
-            svg{
+            .ConOneImg{
                 width:30vh;
                 height:30vh;
             }
@@ -138,28 +152,24 @@ export const ImgTwo = styled.div`
 
         @media (max-width:1024px) {
                 width:30vh;
-                height:33vh;
+                height:35vh;
                 margin:0;
-            svg{
+            .ConOneImg{
                 width:30vh;
                 height:30vh;
-                
             }
         }
 
         @media (max-width:767px) {
-            width:100vh;
-            height:27vh;
-            margin:0;
-            margin-left:8vh;
-            svg{
-                width:100vh;
-                height:27vh;
+            width:25vh;
+            height:23vh;
+            margin-bottom:3vh;
+            margin-left:5vh;
+            
+            .ConOneImg{
+                width:25vh;
+                height:23vh;
                 padding-right:2vh;
             }
     }
 `;
-
-
-
-

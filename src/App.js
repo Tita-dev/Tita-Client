@@ -1,5 +1,5 @@
 import React from 'react';
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import MainPage from './MainPage';
 
 const GlobalStyle = createGlobalStyle`
@@ -8,14 +8,13 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing:border-box;
   }
-  
 `;
 
 function App() {
   return (
     <>
-    <GlobalStyle />
-    <MainPage />
+      <GlobalStyle />
+      <MainPage />
     </>
   );
 }
