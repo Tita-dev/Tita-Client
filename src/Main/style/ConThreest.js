@@ -15,6 +15,11 @@ export const ConOneWrapper = styled.div`
     display: flex;
     justify-content:center;
     align-items: center;
+
+
+    @media (max-width: 360px) {
+        display: grid;
+    }
 `;
 
 export const MentOne = styled.div`
@@ -31,11 +36,18 @@ export const MentOne = styled.div`
         @media (max-width: 1024px) { // Ipad 세로
             font-size: 2.5rem;
         }
+
+        @media (max-width: 360px) {
+            font-size: 1.8rem;
+        }
     }
     .sub_sentence {
         margin: 4vh 0;
         @media (max-width: 1024px) { // Ipad 세로
             font-size: 2rem;
+        }
+        @media (max-width: 360px) {
+            font-size: 1.5rem;
         }
     }
 
@@ -49,12 +61,15 @@ export const ConTwoWrapper = styled.div`
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-left: 44vh;
+
+    @media (max-width: 360px) {
+        display: grid;
+    }
 
     .Img4 {
         width: 30vh;
         height: 14vh;
-        margin-left: -27vh;
+        margin-right: -20vh;
     }
 
     @media (max-width: 1366px) {
@@ -70,26 +85,31 @@ export const ConTwoWrapper = styled.div`
 
 export const MentTwo = styled.div`
     font-size: 2.3rem;
-    font-weight: 450;
-    margin: 0 7vw;
+    font-weight: 450;   
     text-align: right;
-
+    
     @media (max-width: 1024px) {
         margin-right: -1vh;
     }
-
     .sub_title2 {
         color: #0076DC;
         font-size: 3rem;
-        font-weight: 700;
+        font-weight: bold;
         margin: 2vh 0; 
         @media (max-width: 1024px) { // Ipad 세로
             font-size: 2.5rem;
         }
+        @media (max-width: 360px) {
+            font-size: 1.5rem;
+        }
     }
     .sub_sentence2 {
+        display: grid;
         @media (max-width: 1024px) {
             font-size: 2rem;
+        }
+        @media (max-width: 360px) {
+            font-size: 1.5rem;
         }
     }
 `;
