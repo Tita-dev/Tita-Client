@@ -31,6 +31,10 @@ export const Con2Ment1 = styled.p`
     @media (max-width: 767px) {
         display: grid;
     }
+
+    @media (max-width: 360px) {
+        font-size: 2.2rem;
+    }
     div {
         display: inline;
     }
@@ -51,6 +55,10 @@ export const Con2Ment2 = styled.p`
             margin-top: -3.7vh;
         }
     }
+
+    @media (max-width: 360px) {
+        font-size: 1.5rem;
+    }
     div {
         display: inline;
     }
@@ -58,7 +66,7 @@ export const Con2Ment2 = styled.p`
     text-align:center;
     margin:2vh 0 4vh 0;
     .bold_text {
-        font-weight: 600;
+        font-weight: bold;
         display:inline;
     }
     animation: ${TextKeyframe};
