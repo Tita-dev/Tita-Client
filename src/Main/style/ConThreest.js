@@ -52,9 +52,9 @@ export const ConTwoWrapper = styled.div`
     margin-left: 44vh;
 
     .Img4 {
-        width: 28vh;
+        width: 30vh;
         height: 14vh;
-        margin-left: -20vh;
+        margin-left: -27vh;
     }
 
     @media (max-width: 1366px) {
@@ -63,7 +63,7 @@ export const ConTwoWrapper = styled.div`
 
     @media (max-width: 1024px) {
         .Img4 {
-            margin-left: -30vh;
+            margin-left: -32vh;
         }
     }
 `;
