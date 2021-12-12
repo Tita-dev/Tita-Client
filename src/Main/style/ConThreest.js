@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
     
     width: 100%;
     height: 50rem;
-    margin-top: 10vh;
+    margin-top: 3vh;
 `;
 
 export const ConOneWrapper = styled.div`
@@ -49,7 +49,23 @@ export const ConTwoWrapper = styled.div`
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-left: 20vh;
+    margin-left: 44vh;
+
+    .Img4 {
+        width: 28vh;
+        height: 14vh;
+        margin-left: -20vh;
+    }
+
+    @media (max-width: 1366px) {
+        margin-right: 8vh;
+    }
+
+    @media (max-width: 1024px) {
+        .Img4 {
+            margin-left: -30vh;
+        }
+    }
 `;
 
 export const MentTwo = styled.div`
@@ -57,6 +73,10 @@ export const MentTwo = styled.div`
     font-weight: 450;
     margin: 0 7vw;
     text-align: right;
+
+    @media (max-width: 1024px) {
+        margin-right: -1vh;
+    }
 
     .sub_title2 {
         color: #0076DC;
