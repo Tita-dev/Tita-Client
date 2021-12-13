@@ -20,6 +20,12 @@ export const ConOneWrapper = styled.div`
     @media (max-width: 360px) {
         display: grid;
     }
+
+    .Img3 {
+        @media (max-width: 1366px) {
+            margin-left: 10vh;
+        }
+    }
 `;
 
 export const MentOne = styled.div`
@@ -61,7 +67,7 @@ export const ConTwoWrapper = styled.div`
     display: flex;
     justify-content:center;
     align-items: center;
-    padding-left: 4vh;
+    padding-left: 10vh;
 
     @media (max-width: 360px) {
         display: grid;
@@ -70,16 +76,9 @@ export const ConTwoWrapper = styled.div`
     .Img4 {
         width: 30vh;
         height: 14vh;
-        margin-right: 30vh;
-    }
-
-    @media (max-width: 1366px) {
-        margin-right: 8vh;
-    }
-
-    @media (max-width: 1024px) {
-        .Img4 {
-            margin-left: -32vh;
+        margin-right: 15vh;
+        @media (max-width: 1366px) {
+            margin-left: -5vh;
         }
     }
 `;
