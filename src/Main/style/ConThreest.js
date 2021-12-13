@@ -80,6 +80,9 @@ export const ConTwoWrapper = styled.div`
         @media (max-width: 1366px) {
             margin-left: -5vh;
         }
+        @media (max-width: 1024px) {
+            margin-left: -9vh;
+        }
     }
 `;
 
