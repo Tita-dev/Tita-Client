@@ -94,6 +94,10 @@ export const MentTwo = styled.div`
     @media (max-width: 1024px) {
         margin-right: -1vh;
     }
+
+    @media (max-width: 360px) {
+        margin-left: -10vh;
+    }
     .sub_title2 {
         color: #0076DC;
         font-size: 3rem;
