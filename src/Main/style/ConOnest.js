@@ -134,7 +134,7 @@ export const ImgTwo = styled.div`
         margin-left: 3vh;
         width:50vh;
         height:50vh;
-        filter:drop-shadow(10px 10px 10px #D3D3D3);
+        
         .ConOneImg{
             width:50vh;
             height:50vh;
