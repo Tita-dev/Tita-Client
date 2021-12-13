@@ -61,6 +61,7 @@ export const ConTwoWrapper = styled.div`
     display: flex;
     justify-content:center;
     align-items: center;
+    padding-left: 4vh;
 
     @media (max-width: 360px) {
         display: grid;
@@ -69,7 +70,7 @@ export const ConTwoWrapper = styled.div`
     .Img4 {
         width: 30vh;
         height: 14vh;
-        margin-right: -20vh;
+        margin-right: 30vh;
     }
 
     @media (max-width: 1366px) {
