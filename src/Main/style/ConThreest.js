@@ -39,6 +39,7 @@ export const MentOne = styled.div`
   @media (max-width: 768px) {
     margin-left: 1vh;
   }
+
   .sub_title1 {
     color: #dcc600;
     font-size: 3rem;
@@ -142,6 +143,7 @@ export const MentTwo = styled.div`
     }
     @media (max-width: 360px) {
       font-size: 1.5rem;
+      margin-right: 4vh;
     }
   }
   .sub_sentence2 {
@@ -157,6 +159,7 @@ export const MentTwo = styled.div`
     }
     @media (max-width: 360px) {
       font-size: 1.5rem;
+      margin-right: 4vh;
     }
   }
 `;
