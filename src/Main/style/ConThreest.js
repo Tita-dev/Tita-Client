@@ -20,6 +20,10 @@ export const ConOneWrapper = styled.div`
     display: grid;
   }
 
+  @media (max-width: 425px) {
+    display: grid;
+  }
+
   .Img3 {
     @media (max-width: 1366px) {
       margin-left: 10vh;
@@ -48,6 +52,9 @@ export const MentOne = styled.div`
     @media (max-width: 768px) {
       font-size: 2.2rem;
     }
+    @media (max-width: 465px) {
+      font-size: 1.9rem;
+    }
     @media (max-width: 360px) {
       font-size: 1.8rem;
     }
@@ -60,6 +67,9 @@ export const MentOne = styled.div`
     }
     @media (max-width: 768px) {
       font-size: 1.8rem;
+    }
+    @media (max-width: 465px) {
+      font-size: 1.7rem;
     }
     @media (max-width: 360px) {
       font-size: 1.5rem;
@@ -78,6 +88,9 @@ export const ConTwoWrapper = styled.div`
   align-items: center;
   padding-left: 10vh;
 
+  @media (max-width: 425px) {
+    display: grid;
+  }
   @media (max-width: 360px) {
     display: grid;
   }
@@ -92,6 +105,9 @@ export const ConTwoWrapper = styled.div`
     @media (max-width: 1024px) {
       margin-left: -9vh;
     }
+    @media (max-width: 425px) {
+      margin-left: 9vh;
+    }
   }
 `;
 
@@ -103,13 +119,11 @@ export const MentTwo = styled.div`
   @media (max-width: 1024px) {
     margin-right: -1vh;
   }
-
-  @media (max-width: 360px) {
-    margin-left: -10vh;
-  }
-
   @media (max-width: 768px) {
     margin-right: 1vh;
+  }
+  @media (max-width: 360px) {
+    margin-left: -10vh;
   }
   .sub_title2 {
     color: #0076dc;
@@ -123,6 +137,9 @@ export const MentTwo = styled.div`
     @media (max-width: 768px) {
       font-size: 2.2rem;
     }
+    @media (max-width: 465px) {
+      font-size: 1.9rem;
+    }
     @media (max-width: 360px) {
       font-size: 1.5rem;
     }
@@ -134,6 +151,9 @@ export const MentTwo = styled.div`
     }
     @media (max-width: 768px) {
       font-size: 1.8rem;
+    }
+    @media (max-width: 465px) {
+      font-size: 1.7rem;
     }
     @media (max-width: 360px) {
       font-size: 1.5rem;
