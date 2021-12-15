@@ -123,6 +123,9 @@ export const MentTwo = styled.div`
   @media (max-width: 768px) {
     margin-right: 1vh;
   }
+  @media (max-width: 390px) {
+    margin-right: 9.6vh;
+  }
   @media (max-width: 360px) {
     margin-left: -10vh;
   }
@@ -156,6 +159,9 @@ export const MentTwo = styled.div`
     }
     @media (max-width: 465px) {
       font-size: 1.7rem;
+    }
+    @media (max-width: 390px) {
+      font-size: 1.6rem;
     }
     @media (max-width: 360px) {
       font-size: 1.5rem;
