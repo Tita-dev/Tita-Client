@@ -17,14 +17,14 @@ const Contents3 = () => {
     return (
         <>
             <S.Wrapper>
-                <S.ConOneWrapper>
+                <S.ConOneWrapper data-aos="fade-up-left">
                     <S.MentOne>
                         <div className="sub_title1">홈</div>
                         <div className="sub_sentence">오늘의 급식, 주요 공지 등<br />TimeTable의 모든 것을 한눈에</div>
                     </S.MentOne>
                     <I.Breakfast class="Img3"/>
                 </S.ConOneWrapper>
-                <S.ConTwoWrapper>
+                <S.ConTwoWrapper  data-aos="fade-up-right">
                 <img className="Img4" src={require('../../Assets/Freenotice.png').default} alt=""/>
                     <S.MentTwo>
                         <div className="sub_title2">게시판</div>
