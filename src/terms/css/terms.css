@@ -1,0 +1,80 @@
+*{margin: 0; padding: 0;}
+/* body{padding: 0px 50px;} */
+a{text-decoration: none;}
+
+header{
+    padding-left: 50px;
+    height: 180px;
+
+    display: flex;
+    align-items: center;
+}
+
+.TimeTable{
+    color:#0076DC;
+    font-size: 2.5rem;
+}
+
+.Bigfont{
+    height: 200px;
+
+    font-weight: bold;
+    padding-left: 10rem;
+    font-size: 5rem;
+}
+
+.Content{
+    padding: 40px 80px;
+}
+
+.Clauses{
+    color:#0076DC;
+    font-weight: bold;
+    font-size: 3rem;
+}
+/* .ClausesDesc{
+    font-size: 2rem;
+} */
+.Content p{
+    padding-left: 70px;
+    line-height: 42px;
+    font-size: 1.5rem;
+}
+.Content p:first-child{
+    padding-top: 20px;
+}
+.Content p:last-child{
+    padding-bottom: 20px;
+}
+
+.Pooter{
+    height: 130px;
+
+    padding:50px 0;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.PooterLeft{
+    width: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.decs{
+    color: #9E9E9E;
+    font-size: 1rem;
+}
+.PooterLeft p{
+    font-size: 1rem;
+}
+
+.PooterRight{
+    width: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
