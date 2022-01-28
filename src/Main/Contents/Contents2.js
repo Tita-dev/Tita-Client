@@ -18,6 +18,7 @@ const Contents2 = () => {
                 </S.Ment2>
             </S.Cont2>
         </>
+        
     );
 };
 
