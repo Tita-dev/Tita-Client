@@ -1,6 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-const Ptitle = styled.h1`
+
+export const Qtitle = styled.h1`
     padding: 2rem 0 0 12rem;
     font-size: 4rem;
 
@@ -18,8 +19,8 @@ const Ptitle = styled.h1`
     }
 `;
 
-const Pcontent = styled.div`
-    height: 400px;
+export const Qcontent = styled.div`
+    height: 500px;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -38,19 +39,8 @@ const Pcontent = styled.div`
     }
 
     a{
+        cursor: pointer;
         text-decoration:none;
         color:#0076DC;
     }
 `;
-
-const  Qs = () => {
-    return(
-        <>
-            <Ptitle>문의하기</Ptitle>
-            <Pcontent>궁금한 점은<a href="https://mail.google.com/mail/u/0/#inbox">titable2021@gmail.com</a>으로 메일을 보내주세요</Pcontent>
-        </>
-    );
-};
-
-
-export default Qs;
