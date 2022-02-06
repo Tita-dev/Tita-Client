@@ -16,9 +16,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <MainPage />
+      {/* <MainPage /> */}
        {/* <QuestionsPage /> */}
-      {/* <TermPage /> */}
+      <TermPage />
     </>
   );
 }
