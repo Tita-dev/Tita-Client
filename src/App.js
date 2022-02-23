@@ -1,6 +1,8 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import MainPage from './MainPage';
+import TermPage from './TermPage';
+import QuestionsPage from'./QuestionPage';
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -14,7 +16,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <MainPage />
+      {/* <MainPage /> */}
+       {/* <QuestionsPage /> */}
+      <TermPage />
     </>
   );
 }
